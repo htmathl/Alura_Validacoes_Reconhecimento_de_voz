@@ -38,7 +38,7 @@ function validarValorChute(chute) {
         `
     } else {
         elementoChute.innerHTML += `
-            <div>O número secreto é maior <i class="fa-solid fa-arrow-down-long"></i></div>
+            <div>O número secreto é menor <i class="fa-solid fa-arrow-down-long"></i></div>
         `
     }
 }
