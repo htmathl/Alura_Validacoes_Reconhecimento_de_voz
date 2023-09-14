@@ -13,6 +13,8 @@ function validarValorChute(chute) {
                 <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
                 `
                 document.body.style.backgroundColor = "black";
+        } else if ( chute === "miau" ) {
+            window.open('https://www.youtube.com/watch?v=dLKK21ATpIk', '_blank');
         } else {
 
             elementoChute.innerHTML += '<div>Valor Inválido</div>';
